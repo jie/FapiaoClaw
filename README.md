@@ -40,7 +40,7 @@ You can simply ask OpenClaw to install this skill for you:
 
 ### Option C: Install into your existing project
 If you want to add this skill to your own existing project:
-1. Copy the `.github/skills/invoice-processing/` directory to your project's `.github/skills/` directory.
+1. Copy the `invoice-processing/` directory to your project's `.github/skills/` directory.
 2. Copy `main.py` and `requirements.txt` to the root of your project.
 3. Install dependencies using `pip install -r requirements.txt`.
 4. Open your project in OpenClaw. OpenClaw will automatically detect the newly added skill.
@@ -50,7 +50,7 @@ Once installed via Option A or B, interact with the OpenClaw chat:
 - "Please process the invoices in the current directory. The keywords are 'CompanyA;CompanyB'."
 - "帮我整理发票，在目录 fapiao 下，要求包含关键字 银河科技 或者 某讯。 (Agent will construct '银河科技;某讯')"
 
-Because the skill file is located in `.github/skills/`, OpenClaw automatically parses the instructions and safely runs the terminal commands for you.
+Because the skill file is located in `invoice-processing/`, OpenClaw automatically parses the instructions and safely runs the terminal commands for you.
 
 ---
 
@@ -94,7 +94,7 @@ FapiaoClaw 是一个专用的 Python 工具，也是一个可供安装的 **Open
 
 ### 方式三：安装到您现有的项目中
 如果您希望将整理发票的功能添加到自己的项目中：
-1. 将本仓库下的 `.github/skills/invoice-processing/` 文件夹复制到您自己项目的 `.github/skills/` 目录下。
+1. 将本仓库下的 `invoice-processing/` 文件夹复制到您自己项目的 `.github/skills/` 目录下。
 2. 将 `main.py` 和 `requirements.txt` 复制到您项目的根目录中。
 3. 运行 `pip install -r requirements.txt` 安装所需依赖。
 4. 在 OpenClaw 中加载您的项目，OpenClaw 即会自动识别到新放入的技能。
@@ -104,4 +104,4 @@ FapiaoClaw 是一个专用的 Python 工具，也是一个可供安装的 **Open
 - "Please process the invoices in the current directory. The keywords are 'CompanyA;CompanyB'."
 - "帮我整理当前目录里的发票，要求包含关键字 银河科技 或者是 某讯。(Agent will construct '银河科技;某讯')"
 
-由于技能规范文件存在于 `.github/skills/` 之中，OpenClaw 会自动解析您的意图，并在终端为您安全地执行底层 Python 脚本。
+由于技能规范文件存在于 `invoice-processing/` 之中，OpenClaw 会自动解析您的意图，并在终端为您安全地执行底层 Python 脚本。
