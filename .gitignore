@@ -209,3 +209,4 @@ __marimo__/
 openspec
 .github/prompts/*
 .github/workflows/*
+.github/skills/openspec*
